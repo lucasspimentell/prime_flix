@@ -1,0 +1,163 @@
+.detailInfo{
+    width: 100%;
+    
+    
+    
+}
+
+.imgDetail{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(64vh - 71px);
+    overflow: hidden;
+    background-color: black;
+}
+
+.detailInfo img{
+    opacity: 0.7;
+    width: 100%;
+    height: 140%;
+}
+
+.informacoes{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 40%;
+    min-width: 400px;
+    border: solid 1px rgba(95, 158, 160, 0.49);
+    border-radius: 5px;
+    
+}
+
+.detailInfo h2{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detailInfo h2 strong{
+    background-color: green;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: aliceblue;
+}
+
+.informacoes h3{
+    margin-bottom: 10px;
+  
+    width: 100%;
+}
+
+.informacoes p{
+
+    
+    line-height: 1.5;
+    width: 100%;
+}
+
+.areaButtom{
+    margin-left: 10px;
+    
+    
+}
+
+.areaButtom Button{
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.areaButtom Button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.areaButtom Button:hover{
+    opacity: 0.7;
+}
+
+.titleBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.areaButtom{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width: 500px) {
+
+    .detailInfo img{
+    
+    width: 110%;
+    height: 100%;
+}
+
+.informacoes{
+  
+    
+    
+    width: 95%;
+    
+  
+    
+}
+
+.titleBtn{
+    display: flex;
+    width: 100%;
+    
+}
+
+.areaButtom{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.areaButtom button{
+    font-size: 15px;
+    width: 60px;
+}
+
+.detailInfo h2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 18px;
+    
+}
+
+.detailInfo h2 strong{
+    text-align: center;
+    width: 60px;
+    font-size: 15px;
+    
+}
+
+.informacoes{
+    min-width: 200px;
+}
+}
